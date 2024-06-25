@@ -78,6 +78,11 @@ void addNode()
         {
             previous->next = newNode; // step 7: Make the next field of the previous node point to the new node
         }
+        //kondisi jika  if previous samas dengan null
+        else {
+            // if previous is still NULL, it means newNode is now the first node
+            START = newNode;
+        }
     }
 
 }
