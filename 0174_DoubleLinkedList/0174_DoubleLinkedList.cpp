@@ -154,6 +154,12 @@ void deleteNode()
 
 }
 
+//method untuk mengecek apakah list kosong
+bool listEmpty()
+{
+    return (START == NULL);
+}
+
 int main()
 {
     
